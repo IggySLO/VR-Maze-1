@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61b12ca394b9f524e803c0b809597a0e, type: 3}
+  m_Name: SceneControllerSettings
+  m_EditorClassIdentifier: 
+  scenes:
+  - Level01
+  - Skydome
+  - VRMain
+  - GVRDemo
+  - PermissionsDemo
+  - ScrollingUIDemo
+  - VideoDemo
+  - MazeVR_Scene01
+  - PlayerCamera
+  - RoomA
+  - RoomB
+  - RoomC
+  - RoomD
+  - RoomE
+  - RoomF
+  - RoomG
+  - Sun
+  loadAtStartScenes:
+  - Skydome
+  - Level01
+  persistentScenes:
+  - VRMain
